@@ -1,6 +1,6 @@
-#Максимальное и минимальное
+#Макс и мин
 a, b = float(input()), float(input())
-print("Максимальное = ", max(a, b), "Минимальное = ", min(a, b))
+print("Макс = ", max(a, b), "Мин = ", min(a, b))
 
 #Площадь кольца
 r, a = float(input()), float(input())
@@ -28,13 +28,13 @@ if r == b / 2:
 else:
     print("Не вписанно")
     
-#Максимальное
+#Макс
 a, b = float(input()), float(input())
-print("Максимальное = ", max(a, b))
+print("Макс = ", max(a, b))
 
-#Минимальное
+#Мин
 a, b = float(input()), float(input())
-print("Минимальное = ", min(a, b))
+print("Мин = ", min(a, b))
 
 #Расстояние
 a, b = float(input()), float(input())
