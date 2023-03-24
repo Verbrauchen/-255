@@ -1,0 +1,14 @@
+a=(input("Первое число "))
+b=(input("Второе число ")) 
+try: 
+    a=float(a)
+    b=float(b)
+except ValueError:
+      print("введи число!!!")
+if type(a)==float and type(b)==float:  
+      if b<a:
+         print("Второе число меньше")
+      elif a<b:
+          print("Первое число меньше")
+      else: print ("Они одинаковы")
+else: print("Сравнивать можно только числа")        
