@@ -4,7 +4,7 @@ try:
     a=float(a)
     b=float(b)
 except ValueError:
-      print("введи число!!!")
+      print("введи число, ты чо!!!!")
 if type(a)==float and type(b)==float:  
       if b<a:
          print("Второе число меньше")
