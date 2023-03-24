@@ -1,4 +1,4 @@
-tseloe = 10
+tseloe = 1
 drobnoe = int(8.4)
 stroka = "No"
 
