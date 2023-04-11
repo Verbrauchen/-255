@@ -1,13 +1,37 @@
-a=int(input("Катет который прилажащий"))
-b=int(input("Ну тип противолежащий катет"))
-c=int(input("Гипотенуза типа"))
-if c**2==a+b**2:
-    sin=b/c
-    cos=a/c
-    p=3.14
-    if sin<= p/4:
-        print(sin)
-    elif cos>p/4:
-        print(cos)
-    else:print("Прилащий крутой, значит больше противолежащего")
-else:print("Ну а прямоугольный треугольник попуск")
+p=int(input( ))
+i=0
+while i<p:
+    print(i**0.5)
+    i=i+1
+    
+a=int(input( ))
+b=int(input( ))
+c=a+1
+while c<b:
+    print(c)
+    c=c+1    
+    
+a=int(input( ))
+b=int(input( ))
+c=b-1
+while c>a:
+    print(c)
+    c=c-1
+    n=int(input( ))
+i=0
+while i<n:
+    print(i)
+    i=i+1
+    
+    n=int(input(  ))
+k=int(input(  ))
+while 3*k>n:
+    print(k)
+    k=k-1 
+    
+    n=int(input(  ))
+k=int(input(  ))
+while 3*k<n:
+    print(k)
+    k=k+1
+    
